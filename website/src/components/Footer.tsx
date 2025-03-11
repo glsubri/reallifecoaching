@@ -6,11 +6,15 @@ const FooterLink = ({
 }: {
   href: string;
   children: React.ReactNode;
-}) => (
-  <a href={href} className="text-gray-600 hover:text-gray-900">
-    {children}
-  </a>
-);
+}) => {
+  const hrefWithPrefix = import.meta.env.BASE_URL + href;
+
+  return (
+    <a href={hrefWithPrefix} className="text-gray-600 hover:text-gray-900">
+      {children}
+    </a>
+  );
+};
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
