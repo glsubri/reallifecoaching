@@ -1,3 +1,16 @@
+import { generateEmailContent } from "@/components/ui/Email";
+
+const TakeAppointmentButton = (title: string) => {
+  return (
+    <a
+      href={generateEmailContent(title)}
+      className="bg-sky-600 text-white py-2 px-4 rounded-md text-center hover:bg-sky-700 transition-colors mb-4"
+    >
+      Prendre RDV
+    </a>
+  );
+};
+
 interface PriceCardProps {
   title: string;
   price: number;
@@ -24,6 +37,7 @@ export const PriceCard = ({
         ))}
       </ul>
       <div className="grow"></div>
+      <TakeAppointmentButton title={title} />
       <p className="text-gray-600 text-xs">
         *Les actions ne sont disponibles que pour les étudiants et jusqu'au 28
         avril 2025.
