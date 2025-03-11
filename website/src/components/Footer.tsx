@@ -24,7 +24,7 @@ export const Footer = () => {
             <DotSeparator />
             <FooterLink href="/faq" children="FAQ" />
             <DotSeparator />
-            <FooterLink href="/presentation" children="Qui suis-je?" />
+            <FooterLink href="/about" children="À propos" />
           </nav>
 
           <div className="flex items-center gap-4">

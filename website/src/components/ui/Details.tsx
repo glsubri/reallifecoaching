@@ -3,17 +3,6 @@ interface DetailsProps {
   children?: React.ReactNode;
 }
 
-// export const Details = ({ title, children }: DetailsProps) => {
-//   return (
-//     <details className="bg-white/50 border border-gray-300 rounded-md p-4 [&>summary::marker]:size-4 [&>summary::marker]:flex-shrink-0">
-//       <summary className="text-xl font-medium text-gray-700 cursor-pointer pl-2 flex items-center gap-2">
-//         <div className="">{title}</div>
-//       </summary>
-//       <div className="p-4">{children}</div>
-//     </details>
-//   );
-// };
-
 export const Details = ({ title, children }: DetailsProps) => {
   return (
     <details className="group bg-white/50 border border-gray-300 rounded-md p-4">
