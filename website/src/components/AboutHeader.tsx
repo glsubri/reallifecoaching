@@ -1,5 +1,4 @@
 import profileImage from "@/assets/profile.jpg";
-import { RelaxedP } from "./ui/RelaxedP";
 import { H3 } from "./ui/Subtitle";
 
 const DotSeparator = () => <span className="text-gray-300">•</span>;
@@ -8,7 +7,7 @@ export const AboutHeader = () => {
   return (
     <div className="w-full flex flex-row items-center gap-10">
       <img
-        src={profileImage.src}
+        src={import.meta.env.BASE_URL + profileImage.src}
         alt="Photo de profile"
         className="size-48 rounded-full mb-4 object-cover"
       />
