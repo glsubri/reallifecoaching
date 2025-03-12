@@ -105,26 +105,6 @@ export const Main = () => {
           </li>
           <li>Accès à tes emails</li>
         </ul>
-
-        <H3 withMT>🤔 Encore des questions ?</H3>
-        <RelaxedP>
-          Si tu as encore des questions, n'hésite pas à aller voir la{" "}
-          <A href="/faq" local={true}>
-            liste des questions fréquentes
-          </A>
-          . Si cela ne t'aide pas,{" "}
-          <A href="mailto:gls.reallifecoaching@gmail.com" local={false}>
-            envoie-moi un email
-          </A>{" "}
-          👍
-        </RelaxedP>
-        <RelaxedP>
-          Si tu veux en savoir plus sur moi et sur mon parcours, clique sur{" "}
-          <A href="/about" local={true}>
-            ma page de présentation
-          </A>
-          .
-        </RelaxedP>
       </div>
     </Fragment>
   );

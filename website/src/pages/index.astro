@@ -2,6 +2,10 @@
 import CenteredLayout from "@/layouts/CenteredLayout.astro";
 import { CTA } from "@/components/ui/Email";
 import { Main } from "@/components/sections/Main";
+import { FAQ } from "@/components/sections/FAQ";
+import { H3 } from "@/components/ui/Subtitle";
+import { RelaxedP } from "@/components/ui/RelaxedP";
+import { A } from "@/components/ui/A";
 ---
 
 <CenteredLayout>
@@ -10,5 +14,12 @@ import { Main } from "@/components/sections/Main";
         class="w-full flex flex-col px-4 py-8 space-y-6 max-w-4xl mx-auto pb-48"
     >
         <Main />
+
+        <div>
+            <H3 withMT>🤔 Encore des questions ?</H3>
+            <div class="mt-6"></div>
+            <FAQ />
+        </div>
     </div>
 </CenteredLayout>
+>
