@@ -16,7 +16,7 @@ Merci d'avance !`;
 
 export const CTA = () => {
   return (
-    <div className="fixed bottom-8 left-0 right-0 w-full flex justify-center items-center z-50">
+    <div className="fixed bottom-8 w-60 right-0 left-0 mx-auto flex justify-center items-center z-50">
       <a
         href={generateEmailContent("Gestion du temps")}
         className="bg-sky-600 text-white text-lg font-bold py-4 px-8 rounded-full
