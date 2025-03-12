@@ -29,7 +29,7 @@ export const PriceCard = ({
   features,
 }: PriceCardProps) => {
   return (
-    <div className="bg-white/50 rounded-lg shadow-md p-6 min-w-80 max-w-96 flex flex-col">
+    <div className="bg-white/80 border border-gray-300 rounded-lg shadow p-6 min-w-80 max-w-96 flex flex-col">
       <h2 className="text-2xl font-bold mb-4 text-center min-h-16">{title}</h2>
       <Price price={price} action={action} />
       <p className="text-gray-600 mb-4 ">{description}</p>

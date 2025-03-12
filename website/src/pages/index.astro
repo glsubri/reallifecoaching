@@ -3,9 +3,10 @@ import CenteredLayout from "@/layouts/CenteredLayout.astro";
 import { CTA } from "@/components/ui/Email";
 import { Main } from "@/components/sections/Main";
 import { FAQ } from "@/components/sections/FAQ";
-import { H3 } from "@/components/ui/Subtitle";
+import { H2 } from "@/components/ui/Subtitle";
 import { RelaxedP } from "@/components/ui/RelaxedP";
-import { A } from "@/components/ui/A";
+import { About } from "@/components/sections/About";
+import { SmallAboutHeader } from "@/components/AboutHeader";
 ---
 
 <CenteredLayout>
@@ -16,10 +17,16 @@ import { A } from "@/components/ui/A";
         <Main />
 
         <div>
-            <H3 withMT>🤔 Encore des questions ?</H3>
+            <H2 withMT>À propos de moi</H2>
+            <div class="mt-6"></div>
+            <SmallAboutHeader />
+            <About />
+        </div>
+
+        <div>
+            <H2 withMT>🤔 Encore des questions ?</H2>
             <div class="mt-6"></div>
             <FAQ />
         </div>
     </div>
 </CenteredLayout>
->
