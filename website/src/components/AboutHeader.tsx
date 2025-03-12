@@ -7,7 +7,7 @@ export const AboutHeader = () => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center gap-10">
       <img
-        src={import.meta.env.BASE_URL + profileImage.src}
+        src={profileImage.src}
         alt="Photo de profile"
         className="size-48 rounded-full mb-4 object-cover"
       />
