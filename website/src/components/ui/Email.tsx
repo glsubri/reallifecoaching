@@ -4,9 +4,10 @@ export const generateEmailContent = (title: string) => {
 
 Je suis intéressé(e) par une séance "${title}".
 
-Je suis disponible les: ...
-
-J'aimerai qu'on se recontre: chez moi / à ...
+👇 A remplir svp 👇
+J'aimerai utiliser des outils: digitaux / papier ?
+Je suis disponible les: ... ?
+J'aimerai qu'on se recontre: chez moi / à ... ?
 
 Merci d'avance !`;
 
